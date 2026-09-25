@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>AI Content Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🤖 AI Content Generator</h1>
+
+        <p>
+            Ask questions, summarize text,
+            generate ideas and learn definitions.
+        </p>
+    </header>
+
+
+    <main class="container">
+
+
+        <section class="card">
+
+            <h2>💬 Ask Me Anything</h2>
+
+            <input
+                id="askInput"
+                type="text"
+                placeholder="Ask something..."
+            >
+
+            <button id="askBtn">
+                Ask AI
+            </button>
+
+            <div id="askLoading"
+                 class="loading">
+            </div>
+
+            <div id="askOutput"
+                 class="output">
+                Your answer will appear here.
+            </div>
+
+        </section>
+
+
+        
+
+        <section class="card">
+
+            <h2>📝 Quick Summarizer</h2>
+
+            <textarea
+                id="summaryInput"
+                placeholder="Paste your text here..."
+            ></textarea>
+
+            <button id="summaryBtn">
+                Summarize
+            </button>
+
+            <div id="summaryLoading"
+                 class="loading">
+            </div>
+
+            <div id="summaryOutput"
+                 class="output">
+                Your summary will appear here.
+            </div>
+
+        </section>
+
+
+        
+
+        <section class="card">
+
+            <h2>💡 Idea Spark</h2>
+
+            <input
+                id="ideaInput"
+                type="text"
+                placeholder="Example: JavaScript project"
+            >
+
+            <button id="ideaBtn">
+                Generate Ideas
+            </button>
+
+            <div id="ideaLoading"
+                 class="loading">
+            </div>
+
+            <div id="ideaOutput"
+                 class="output">
+                Your ideas will appear here.
+            </div>
+
+        </section>
+
+
+        <section class="card">
+
+            <h2>📚 Definition Finder</h2>
+
+            <input
+                id="definitionInput"
+                type="text"
+                placeholder="Example: API"
+            >
+
+            <button id="definitionBtn">
+                Find Definition
+            </button>
+
+            <div id="definitionLoading"
+                 class="loading">
+            </div>
+
+            <div id="definitionOutput"
+                 class="output">
+                Definition will appear here.
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <p>
+            AI Content Generator | Phase 4
+        </p>
+    </footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
